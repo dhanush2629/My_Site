@@ -2,6 +2,16 @@ import { useState } from "react";
 import { ExternalLink, Github } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { useNavigate } from "react-router-dom";
+import f from "@/pages/f.PNG";
+import t from "@/pages/t.PNG";
+import thamane from "@/pages/thamane.PNG";
+import f1 from "@/pages/f1.png";
+import food from "@/pages/food.PNG";
+import Telegram_Bot_ from "@/pages/Telegram_Bot_.png";
+import speech from "@/pages/speech.png";
+import ai from "@/pages/ai.PNG";
+import dimg from "@/pages/dimg.PNG";
+import p from "@/pages/p.PNG";
 
 const Projects = () => {
   const [activeCategory, setActiveCategory] = useState("All");
@@ -24,7 +34,7 @@ const Projects = () => {
       title: "FOODIE",
       category: "Web Development",
       description: "A full-featured online shopping platform with cart and payment integration",
-      image: "src/pages/food.png",
+      image: food,
       tags: ["HTML", "CSS", "JavaScript"],
     },
     {
