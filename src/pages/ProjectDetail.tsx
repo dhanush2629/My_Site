@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 import f from "@/pages/f.PNG";
 import t from "@/pages/t.PNG";
 import thamane from "@/pages/thamane.PNG";
-import face from "@/pages/face.PNG";
+import f1 from "@/pages/f1.PNG";
 import food from "@/pages/food.PNG";
 import Telegram_Bot_ from "@/pages/Telegram_Bot_.PNG";
 import speech from "@/pages/speech.PNG";
@@ -81,7 +81,7 @@ const ProjectDetail = () => {
       title: "FACE DETECTION",
       category: "Python",
       description: "A Python-based real-time Face Detection system built using OpenCV, capable of detecting human faces from images and live webcam streams. The project demonstrates computer vision fundamentals, Haar cascade/Deep Learning–based detection.",
-      image: face,
+      image: f1,
       tags: ["Python", "OpenCV"],
       challenge: "Required a fast and accurate way to detect faces in real time using a lightweight model.Needed a simple interface for users to upload images or use a webcam feed.Ensure detection works under different lighting conditions, orientations, and distances.",
       solution: "Implemented face detection using OpenCV Haar Cascade Classifier for lightweight, CPU-friendly performance.Added support for Real-Time Webcam Detection using cv2.VideoCapture().Built for easy user control—upload image, start/stop camera, save results.",
