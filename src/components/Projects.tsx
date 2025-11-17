@@ -9,7 +9,7 @@ import f1 from "@/pages/f1.png";
 import food from "@/pages/food.PNG";
 import Telegram_Bot_ from "@/pages/Telegram_Bot_.png";
 import speech from "@/pages/speech.png";
-import ai from "@/pages/ai.PNG";
+import ai_img from "@/pages/ai_img.jpg";
 import dimg from "@/pages/dimg.PNG";
 import p from "@/pages/p.PNG";
 
@@ -26,7 +26,7 @@ const Projects = () => {
       title: "Ai_Assitant",
       category: "Python",
       description: "AI assistant typically requires direct user commands for each task.",
-      image: "src/pages/ai_img.jpg",
+      image: ai_img,
       tags: ["Python","NLP"],
     },
     {
@@ -42,7 +42,7 @@ const Projects = () => {
       title: "FOOD_ORDER",
       category: "Design",
       description: "Complete visual identity design for a tech startup",
-      image: "src/pages/thamane.png",
+      image:thamane,
       tags: [ "UI/UX", "Figma"],
     },
     {
@@ -50,7 +50,7 @@ const Projects = () => {
       title: "FACE DETECTION",
       category: "Python",
       description: "Face detection in PNG images using Python.",
-      image: "src/pages/face.png",
+      image: f1,
       tags: [ "OpenCV", "Python"],
     },
     {
@@ -58,7 +58,7 @@ const Projects = () => {
       title: "Food Order App",
       category: "Design",
       description: "Complete visual identity design for a tech startup",
-      image: "src/pages/f.png",
+      image: f,
       tags: [ "UI/UX", "Figma"],
     },
     {
@@ -74,7 +74,7 @@ const Projects = () => {
       title: "TELEGRAM AUTOMATION",
       category: "Automation with n8n",
       description: "Automated workflows connecting multiple apps and services",
-      image: "src/pages/Telegram_Bot_.png",
+      image: Telegram_Bot_,
       tags: ["n8n", "API", "Workflows"],
     },
     {
@@ -90,7 +90,7 @@ const Projects = () => {
       title: "TICKET BOOKING",
       category: "Design",
       description: "Complete visual identity design for a tech startup",
-      image: "src/pages/t.png",
+      image: t,
       tags: [ "UI/UX", "Figma"],
     },
     {
@@ -98,7 +98,7 @@ const Projects = () => {
       title: "Text to Speech",
       category: "Web Development",
       description: "Text-to-speech (TTS) is a technology that converts written text into spoken audio using artificial intelligence (AI) voices. ",
-      image: "src/pages/speech.png",
+      image: speech,
       tags: [ "HTML","CSS","Javascript"],
     },
   ];
