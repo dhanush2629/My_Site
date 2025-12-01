@@ -66,7 +66,7 @@ const ProjectDetail = () => {
       title: "FOOD_ORDER APP",
       category: "Design",
      description: "A modern and intuitive Food Ordering App design created using Figma, with custom illustrations built in Adobe Illustrator. The app focuses on fast navigation, visually appealing UI, easy menu browsing, and a seamless ordering experience from selection to checkout.",
-      image: f,
+      image: thamane,
       tags: ["UI/UX", "Figma"],
       challenge: "Design a clean and engaging food-ordering interface that appeals to both new and returning users.Reduce the steps needed to browse restaurants, explore menus, customize items, and place an order.Ensure the layout works flawlessly on all screen sizes with consistent design components.Create custom visual elements and food illustrations for a unique branding experience.",
       solution: "Designed a complete UI/UX flow in Figma using components, variants, auto-layout, and shared styles.Created custom illustrations and icons in Illustrator for a unique, branded experience.Added micro-interactions, transitions, and a clean visual hierarchy for smooth usability.Ensured consistent spacing, typography, and component reuse to improve design scalability.",
